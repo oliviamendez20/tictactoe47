@@ -17,6 +17,8 @@
 		67CC62292B20C823005A98C5 /* ticTacToeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC62282B20C823005A98C5 /* ticTacToeAppTests.swift */; };
 		67CC62332B20C823005A98C5 /* ticTacToeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC62322B20C823005A98C5 /* ticTacToeAppUITests.swift */; };
 		67CC62352B20C823005A98C5 /* ticTacToeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC62342B20C823005A98C5 /* ticTacToeAppUITestsLaunchTests.swift */; };
+		67CC62422B20CB51005A98C5 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC62412B20CB51005A98C5 /* VC2.swift */; };
+		67D6164A2B2CA8280013E28C /* VC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D616492B2CA8280013E28C /* VC3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		67CC622E2B20C823005A98C5 /* ticTacToeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticTacToeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67CC62322B20C823005A98C5 /* ticTacToeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticTacToeAppUITests.swift; sourceTree = "<group>"; };
 		67CC62342B20C823005A98C5 /* ticTacToeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticTacToeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67CC62412B20CB51005A98C5 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		67D616492B2CA8280013E28C /* VC3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				67CC62102B20C822005A98C5 /* SceneDelegate.swift */,
 				67CC62122B20C822005A98C5 /* ViewController.swift */,
 				67CC62142B20C822005A98C5 /* Main.storyboard */,
+				67CC62412B20CB51005A98C5 /* VC2.swift */,
+				67D616492B2CA8280013E28C /* VC3.swift */,
 				67CC621A2B20C823005A98C5 /* Assets.xcassets */,
 				67CC621C2B20C823005A98C5 /* LaunchScreen.storyboard */,
 				67CC621F2B20C823005A98C5 /* Info.plist */,
@@ -261,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D6164A2B2CA8280013E28C /* VC3.swift in Sources */,
 				67CC62132B20C822005A98C5 /* ViewController.swift in Sources */,
 				67CC620F2B20C822005A98C5 /* AppDelegate.swift in Sources */,
+				67CC62422B20CB51005A98C5 /* VC2.swift in Sources */,
 				67CC62192B20C822005A98C5 /* ticTacToeApp.xcdatamodeld in Sources */,
 				67CC62112B20C822005A98C5 /* SceneDelegate.swift in Sources */,
 			);
