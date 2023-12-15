@@ -9,12 +9,13 @@ import Foundation
 import UIKit
 
 
-public class CazyCell : UITableView{
+public class CazyCell : UITableViewCell{
     
     
     @IBOutlet weak var winnerOutlet: UILabel!
     
     
     
+   
     
 }

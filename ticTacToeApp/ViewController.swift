@@ -5,6 +5,18 @@
 //  Created by OLIVIA MENDEZ on 12/6/23.
 //
 
+public class Winners{
+    
+    var names : String
+    var score : Int
+    
+    init(names: String, score: Int) {
+        self.names = names
+        self.score = score
+    }
+    
+}
+
 public class AppData{
    
 static var  player1 = ""
@@ -14,6 +26,8 @@ static var o = 0
 static var p1c = ""
 static var p2c = ""
 static var score = 0
+static var winnersArray = [Winners]()
+
     
     
 }

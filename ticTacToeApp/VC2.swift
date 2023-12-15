@@ -408,6 +408,9 @@ class VC2: UIViewController {
             print("lol")
             
             AppData.score += 1
+            
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
         }
         
         else if(baOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bcOutlet.titleLabel!.text! == "\(AppData.p1c)") {
