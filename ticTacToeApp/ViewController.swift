@@ -13,6 +13,7 @@ static var x = 0
 static var o = 0
 static var p1c = ""
 static var p2c = ""
+static var score = 0
     
     
 }

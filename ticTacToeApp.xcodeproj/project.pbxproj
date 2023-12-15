@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674122972B2CB154002B60DC /* CazyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674122962B2CB154002B60DC /* CazyCell.swift */; };
 		67CC620F2B20C822005A98C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC620E2B20C822005A98C5 /* AppDelegate.swift */; };
 		67CC62112B20C822005A98C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC62102B20C822005A98C5 /* SceneDelegate.swift */; };
 		67CC62132B20C822005A98C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CC62122B20C822005A98C5 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		674122962B2CB154002B60DC /* CazyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CazyCell.swift; sourceTree = "<group>"; };
 		67CC620B2B20C822005A98C5 /* ticTacToeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticTacToeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67CC620E2B20C822005A98C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67CC62102B20C822005A98C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				67CC62142B20C822005A98C5 /* Main.storyboard */,
 				67CC62412B20CB51005A98C5 /* VC2.swift */,
 				67D616492B2CA8280013E28C /* VC3.swift */,
+				674122962B2CB154002B60DC /* CazyCell.swift */,
 				67CC621A2B20C823005A98C5 /* Assets.xcassets */,
 				67CC621C2B20C823005A98C5 /* LaunchScreen.storyboard */,
 				67CC621F2B20C823005A98C5 /* Info.plist */,
@@ -270,6 +273,7 @@
 				67D6164A2B2CA8280013E28C /* VC3.swift in Sources */,
 				67CC62132B20C822005A98C5 /* ViewController.swift in Sources */,
 				67CC620F2B20C822005A98C5 /* AppDelegate.swift in Sources */,
+				674122972B2CB154002B60DC /* CazyCell.swift in Sources */,
 				67CC62422B20CB51005A98C5 /* VC2.swift in Sources */,
 				67CC62192B20C822005A98C5 /* ticTacToeApp.xcdatamodeld in Sources */,
 				67CC62112B20C822005A98C5 /* SceneDelegate.swift in Sources */,

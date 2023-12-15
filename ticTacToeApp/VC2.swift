@@ -406,46 +406,59 @@ class VC2: UIViewController {
             labelOutlet.text = "\(AppData.player1) won!"
             
             print("lol")
+            
+            AppData.score += 1
         }
         
         else if(baOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bcOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
             
+            AppData.score += 1
+
+            
         }
         
         else if (caOutlet.titleLabel!.text! == "\(AppData.p1c)") && (cbOutlet.titleLabel!.text! == "\(AppData.p1c)") && (ccOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
+            AppData.score += 1
+
             
         }
         
         else if (aaOutlet.titleLabel!.text! == "\(AppData.p1c)") && (baOutlet.titleLabel!.text! == "\(AppData.p1c)") && (baOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
-            
+            AppData.score += 1
+
         }
         
         else if (abOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p1c)") && (cbOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
-            
+            AppData.score += 1
+
         }
         
         else if (acOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bcOutlet.titleLabel!.text! == "\(AppData.p1c)") && (ccOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
-            
+            AppData.score += 1
+
         }
         
         else if (aaOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p1c)") && (ccOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
-            
+            AppData.score += 1
+
         }
         else if (acOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p1c)") && (acOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
+            AppData.score += 1
+
         }
         
         // player 2
@@ -453,53 +466,65 @@ class VC2: UIViewController {
         if (aaOutlet.titleLabel!.text! == "\(AppData.p2c)") && (abOutlet.titleLabel!.text! == "\(AppData.p2c)") && (acOutlet.titleLabel!.text! == "\(AppData.p2c)"){
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
         }
         
         else if(baOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bcOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
             
         }
         
         else if (caOutlet.titleLabel!.text! == "\(AppData.p2c)") && (cbOutlet.titleLabel!.text! == "\(AppData.p2c)") && (ccOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
             
         }
         
         else if (aaOutlet.titleLabel!.text! == "\(AppData.p2c)") && (baOutlet.titleLabel!.text! == "\(AppData.p2c)") && (baOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
             
         }
         
         else if (abOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p2c)") && (cbOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
             
         }
         
         else if (acOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bcOutlet.titleLabel!.text! == "\(AppData.p2c)") && (ccOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
             
         }
         
         else if (aaOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p2c)") && (ccOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
             
         }
         else if (acOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p2c)") && (acOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
+            AppData.score += 1
+
             
         }
         
-        
-        // if(aaOutlet.titleLabel == "\(AppData.p1c)" && (abOutlet.titleLabel == "\(AppData.p1c)") && (acOutlet.titleLabel == "\(AppData.p1c)"){
-        //  labelOutlet.text = "Yuur"
-        //  round = false
         
     }
     
