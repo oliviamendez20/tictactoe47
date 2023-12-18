@@ -15,6 +15,7 @@ public class Winners{
         self.score = score
     }
     
+    
 }
 
 public class AppData{

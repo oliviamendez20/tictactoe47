@@ -268,7 +268,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6M9-9R-PQY">
-                                                    <rect key="frame" x="147" y="0.0" width="42" height="21"/>
+                                                    <rect key="frame" x="175" y="11" width="42" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -276,6 +276,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="winnerOutlet" destination="6M9-9R-PQY" id="0FO-6F-XOH"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -292,6 +295,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Winners" image="trophy.circle" catalog="system" id="dJv-hE-JeZ"/>
                     <navigationItem key="navigationItem" id="ijL-Hu-Ycv"/>
+                    <connections>
+                        <outlet property="tableViewOutlet" destination="YJ5-G3-9NC" id="cqh-gA-fSd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sw4-y2-anJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

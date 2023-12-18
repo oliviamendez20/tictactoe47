@@ -66,6 +66,7 @@ class VC2: UIViewController {
             turn1 = 0
             turn2 = 1
             checkWin1()
+            
 
             
         }
@@ -418,6 +419,10 @@ class VC2: UIViewController {
             labelOutlet.text = "\(AppData.player1) won!"
             
             AppData.score += 1
+            
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
+
 
             
         }
@@ -428,12 +433,18 @@ class VC2: UIViewController {
             AppData.score += 1
 
             
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
+            
         }
         
         else if (aaOutlet.titleLabel!.text! == "\(AppData.p1c)") && (baOutlet.titleLabel!.text! == "\(AppData.p1c)") && (baOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
             AppData.score += 1
+
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
 
         }
         
@@ -442,12 +453,18 @@ class VC2: UIViewController {
             labelOutlet.text = "\(AppData.player1) won!"
             AppData.score += 1
 
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
+
         }
         
         else if (acOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bcOutlet.titleLabel!.text! == "\(AppData.p1c)") && (ccOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
             AppData.score += 1
+
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
 
         }
         
@@ -456,12 +473,19 @@ class VC2: UIViewController {
             labelOutlet.text = "\(AppData.player1) won!"
             AppData.score += 1
 
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
+
         }
         else if (acOutlet.titleLabel!.text! == "\(AppData.p1c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p1c)") && (acOutlet.titleLabel!.text! == "\(AppData.p1c)") {
             
             labelOutlet.text = "\(AppData.player1) won!"
             AppData.score += 1
 
+            AppData.winnersArray.append(Winners(names: "\(AppData.player1)", score: AppData.score))
+
+
+            
         }
         
         // player 2
@@ -471,12 +495,19 @@ class VC2: UIViewController {
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
 
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
+
+            
         }
         
         else if(baOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bcOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
+
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
 
             
         }
@@ -485,6 +516,9 @@ class VC2: UIViewController {
             
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
+            
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
 
             
         }
@@ -493,6 +527,9 @@ class VC2: UIViewController {
             
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
+            
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
 
             
         }
@@ -501,6 +538,10 @@ class VC2: UIViewController {
             
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
+            
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
+
 
             
         }
@@ -510,6 +551,9 @@ class VC2: UIViewController {
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
 
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
+
             
         }
         
@@ -518,12 +562,18 @@ class VC2: UIViewController {
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
 
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
+
             
         }
         else if (acOutlet.titleLabel!.text! == "\(AppData.p2c)") && (bbOutlet.titleLabel!.text! == "\(AppData.p2c)") && (acOutlet.titleLabel!.text! == "\(AppData.p2c)") {
             
             labelOutlet.text = "\(AppData.player2) won!"
             AppData.score += 1
+
+            AppData.winnersArray.append(Winners(names: "\(AppData.player2)", score: AppData.score))
+
 
             
         }

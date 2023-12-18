@@ -7,33 +7,32 @@
 
 import UIKit
 
-class VC3: UIViewController{
+class VC3: UIViewController, UITableViewDelegate, UITableViewDataSource{
+   
     
     
+    @IBOutlet weak var tableViewOutlet: UITableView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // tableViewOutlet.delegate = self
-        // tableViewOutlet.delegate = self
+        tableViewOutlet.delegate = self
+        tableViewOutlet.dataSource = self
         
         
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return AppData.winnersArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell") as! CazyCell
         
-        // Do any additional setup after loading the view.
-        //    }
-        //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //      //  return
-        //    }
-        //
-        //    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        //
-        //    }
+        cell.winnerOutlet.text = AppData.winnersArray[indexPath.row].names
         
-        
-        weak var tableViewOutlet: UITableViewCell!
-        
-        
+        return cell
+    
         
     }
         
