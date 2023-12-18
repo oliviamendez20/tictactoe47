@@ -5,7 +5,7 @@
 //  Created by OLIVIA MENDEZ on 12/6/23.
 //
 
-public class Winners{
+public class Winners: Codable{
     
     var names : String
     var score : Int
