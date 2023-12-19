@@ -5,20 +5,9 @@
 //  Created by OLIVIA MENDEZ on 12/6/23.
 //
 
-public class Winners: Codable{
-    
-    var names : String
-    var score : Int
-    
-    init(names: String, score: Int) {
-        self.names = names
-        self.score = score
-    }
-    
-    
-}
 
-public class AppData{
+
+public class AppData: Codable{
    
 static var  player1 = ""
 static var player2 = ""
@@ -27,9 +16,8 @@ static var o = 0
 static var p1c = ""
 static var p2c = ""
 static var score = 0
-static var winnersArray = [Winners]()
-
     
+    static var winnersArray = [String]()
     
 }
 
@@ -107,7 +95,7 @@ class ViewController: UIViewController {
             AppData.player1 = p1nTextOutlet.text!
             AppData.player2 = p2nTextOutlet.text!
             
-            performSegue(withIdentifier: "toScreen2", sender: self)
+         //   performSegue(withIdentifier: "toScreen2", sender: self)
             
         
         }
